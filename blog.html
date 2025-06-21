@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog</title>
+    <link rel="canonical" href="blog.html" />
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="Blog" />
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=62dc22846895ac00191ea9d1&product=inline-share-buttons" async="async"></script>
+
+    <!-- Simple line icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+
+    <!-- Favicon-->
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="home/css/styles.css" rel="stylesheet" /> 
+
+    <style>
+        body {
+            overflow-x: hidden !important;
+        }
+        .bg-header {
+            background-color: rgba(15, 87, 251, 0.6) !important;
+            background-color: rgba(15, 87, 251, 0.6) !important;
+        }
+
+        .bg-footer {
+            --bs-bg-opacity: 1;
+            background-image: linear-gradient( #0F57FB, #0F57FB) !important;
+        }
+
+        .header-text-color {
+            color: #ffffff;
+        }
+
+
+        .navbar-nav .active {
+            border-bottom: solid 1px #ffffff !important;
+        }
+
+        .top-area {
+            height: 30rem;
+            background-color: rgba(0, 0, 0, 0.5);
+            background-image: url(banner_image.png);
+            background-repeat: no-repeat;
+            background-position: 50% 0;
+            background-size: cover;
+        }
+
+        .header-transparent-layer {
+            display: block;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5) !important;
+        }
+
+        .header-transparent-layer .contents {
+            padding: 2rem;
+        }
+
+        @media (min-width: 801px) {
+            .custom-position {
+                margin: 3rem auto;
+                width: 45%;
+                border-radius: 30px;
+                padding: 0;
+                margin-left: 10%;
+            }
+        }
+
+        @media (max-width: 800px) {
+            .custom-position {
+                margin: 3rem auto;
+                width: 80%;
+                border-radius: 30px;
+                padding: 0;
+            }
+            .text-start {
+                text-align: center !important;
+            }
+        }
+        body {
+                    background-color: #f1f6f9;
+                }
+
+                .transparent-layer{
+                        background-color: rgba(0, 0 ,0, 0.6) !important;
+
+                    }
+                    .header-transparent-layer {
+                    background-color: rgba(0, 0 ,0, 0.6) !important;
+
+                    }
+
+                .all-article-link{
+                    background-color:  #ffffff !important;
+                    color:  #3358fb !important;
+                    border: 1px solid #eaeaea !important;
+                }
+
+                .bg-dark, .bg-header, .bg-footer, .dropdown-content2 {
+                    background-color:  #21369f !important;
+                    background-image: none;
+                }
+
+
+
+                .bg-dark, .navbar-brand, .lmcy_hfollow, .bottom_footer_menu_text, .bottom_footer_menu_text li a{
+                    color: #ffffff !important;
+                }
+
+                .lmcy_logo_n {
+                    color: #ffffff !important;
+                }
+                .lmcy_header_magazine_style.lmcy_cus_top_share.header_layout_style3_custom .social_icon_header_top li a i{
+                color: #ffffff !important;
+                }
+
+                .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+                    color: #ffffff;
+                }
+
+                footer .social-link {
+                    color: #21369f !important;
+                    background-color: #ffffff !important;
+                }
+
+                .navbar-dark .navbar-nav .nav-link,
+                .dropdown-content a,
+                footer.py-5.bg-dark.text-center p,
+                footer.py-5.bg-dark.text-center a,
+                footer.py-5.bg-dark.text-center a:hover,
+                footer.py-5.bg-dark.text-center a:focus,
+                footer.py-5.bg-dark.text-center a:focus-visible, .header-text-color {
+                    color: #ffffff;
+                }
+
+                .navbar-dark .navbar-nav .nav-link:hover,
+                .bd_left:hover,
+                .dropdown-content li:hover,
+                .navbar-dark .navbar-nav .nav-link:focus {
+                    color: #000000;
+                }
+                .head-title {
+                    color: #ffffff !important;
+                }
+                .head-tagline {
+                    color: #ffffff;
+                }
+
+                footer.py-5.bg-dark.text-center, .footer-text-color {
+                    color: #ffffff !important;
+                }
+
+                .text-theme,
+                a.text-theme:focus,
+                a.text-theme:hover {
+                    color: #3358fb !important;
+                }
+
+                .btn-banner-theme {
+                    color: #ffffff;
+                    background-color: #3358fb;
+                    border-color: #3358fb;
+                }
+
+                .btn-banner-theme:hover {
+                    color: #ffffff;
+                    background-color: #3358fb;
+                }
+
+                .btn-theme {
+                    color: #ffffff;
+                    background-color: #3358fb;
+                    border-color: #3358fb;
+                }
+
+                .btn-theme:hover {
+                    color: #ffffff;
+                    background-color: #3358fb;
+                }
+
+
+                .card-title, .card-heading {
+                    color: #000000;
+                }
+
+                .main-heading {
+                    color: #000000;
+                }
+
+                .card-text{
+                    color: #000000!important;
+                    height: auto !important;
+                    min-height: 140px;
+                }
+.card-text p {
+                    color: #000000!important;
+                    
+                }
+                .article-card-text {
+                    color:  #212529;
+                  
+                }
+.article-card-text * {
+                    color: #212529 !important;
+                   background: none !important;
+                }
+                .article-container {
+                    background-color: #ffffff;
+                    padding : 10px;
+
+                }
+
+                .cards-container .card {
+                    background-color: #ffffff !important;
+                    border: 2px solid #eaeaea !important;
+                    border-radius: 14px;
+                }
+
+                .cards-container .card .card-title {
+                    color: #000000;
+                }
+
+                .cards-container .card .card-text {
+                    color: #000000!important;
+                }
+                .article-info {
+                    color: #9a9d9f;
+                }
+    </style>
+</head>
+
+<body>
+<!-- Responsive navbar-->
+<div class="top-area">
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <div class="container px-5">
+            <a style="color: inherit; text-decoration: inherit;" href="index.html">
+                    <span class="navbar-brand">
+                        <img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()">
+                    </span>
+                <span class="navbar-brand header-text-color">yourcustomrugs</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
+                    <li class="nav-item {{home_active}}">
+                        <a class="nav-link header-text-color" href="index.html">Home</a>
+                    </li>
+                    <div class="nav-item {{service_active}} dropdown">
+                        <button class="header-text-color dropbtn is-mobile">Pages</button>
+                        <a class="nav-link header-text-color dropbtn is-desktop" href="pages.html">Pages</a>
+                        <div class="dropdown-content">
+                            <div class="dropdown-content2">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <li class="nav-item active">
+                        <a class="nav-link header-text-color" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item {{about_us_active}}" style="display: none">
+                        <a class="nav-link header-text-color" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item {{contact_active}}" style="display: ">
+                        <a class="nav-link header-text-color" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-4 mb-2 mb-lg-0" style="display: none !important;">
+                    <li class="nav-item" style="display: inline-block">
+                        <a class="nav-link header-text-color" target="_blank" href="https://web.facebook.com/kechart/?_rdc=1&_rdr#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="display: none">
+                        <a class="nav-link header-text-color" target="_blank" href="">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="display: inline-block">
+                        <a class="nav-link header-text-color" target="_blank" href="https://www.instagram.com/kechart_brand/#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="display: inline-block">
+                        <a class="nav-link header-text-color" target="_blank" href="https://www.pinterest.com/kechartdotcom/">
+                            <i class="fa-brands fa-pinterest"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="display: inline-block">
+                        <a class="nav-link header-text-color" target="_blank" href="https://www.youtube.com/@kechart2001">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg overflow-hidden custom-position">
+        <div class="header-transparent-layer p-5">
+            <h1 class="display-5 text-capitalize fw-bold header-text-color"><span>Latest Blog Posts</span></h1>
+        </div>
+    </nav>
+</div>
+
+<div class="container article-container">
+
+    <header class="py-2 border-bottom mb-4" style="display: none">
+        <div class="ql-editor py-4 article-card-text" id="sitewide-header">
+            
+        </div>
+    </header>
+    <div class="row align-items-center py-lg-5 article-card-text px-4">
+        <!-- Heading Row-->
+        <div class="col-lg-12 py-lg-2">
+                    <h2 class="main-heading fs-3">yourcustomrugs: Latest Blog Posts</h2>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="round-up-of-unique-handmade-moroccan-pillow-designs.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Flangan Drew Christian</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Round Up of Unique Handmade Moroccan Pillow Designs</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Berber pillows are renowned for their striking designs and unique textures. Crafted by skilled artisans, these pillows often feature rich, vibrant colors drawn from the natural landscapes of Morocco. The intricate handwoven patterns reflect the cultu......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="round-up-of-unique-handmade-moroccan-pillow-designs.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="review-of-the-best-handmade-moroccan-pillow-artisans.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Flangan Drew Christian</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Review of the Best Handmade Moroccan Pillow Artisans</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Handmade Moroccan pillows offer uniqueness that mass-produced items simply cannot match. Each piece reflects the individual artisan's craftsmanship and creativity. This personalization gives buyers the opportunity to select items that resonate with t......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="review-of-the-best-handmade-moroccan-pillow-artisans.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="how-to-incorporate-handmade-moroccan-pillows-into-your-decor.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Flangan Drew Christian</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How to Incorporate Handmade Moroccan Pillows into Your Decor</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Handmade Moroccan pillows can serve as vibrant accents in any bedroom. Their intricate designs and vivid colors bring a touch of exotic elegance to the space. Placing these pillows on a neutral-colored bedspread can create a stunning focal point, eff......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-to-incorporate-handmade-moroccan-pillows-into-your-decor.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="what-is-a-cactus-silk.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Flangan Drew Christian</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What is a cactus silk?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Cactus silk, known for its unique texture and durability, has become increasingly popular in various applications. In fashion, it is often used to create exquisite garments such as dresses, scarves, and bags. Designers appreciate its lightweight, bre......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-is-a-cactus-silk.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="is-cactus-silk-real-or-fake.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Flangan Drew Christian</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Is cactus silk real or fake?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Cactus silk products require gentle handling to maintain their unique texture and appearance. Regular dusting with a soft, dry cloth helps prevent dirt build-up and keeps the fabric looking fresh. When it comes to washing, use cold water and a mild d......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="is-cactus-silk-real-or-fake.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="what-is-the-downside-of-a-silk-pillowcase.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Flangan Drew Christian</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What is the downside of a silk pillowcase?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Silk pillowcases are often praised for their luxurious feel and potential benefits for skin and hair. However, when it comes to temperature regulation, they may not perform as well as other materials. Silk has a natural propensity to trap heat, which......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-is-the-downside-of-a-silk-pillowcase.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="is-it-worth-buying-a-rug-in-morocco.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Flangan Drew Christian</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Is it worth buying a rug in Morocco?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">When considering a rug purchase in Morocco, understanding the principles of authenticity and fair trade is crucial. Many artisans produce handmade rugs that reflect the rich cultural heritage of the country. Supporting local craftspersons ensures the......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="is-it-worth-buying-a-rug-in-morocco.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="how-can-you-tell-if-a-moroccan-rug-is-real.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Flangan Drew Christian</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How can you tell if a Moroccan rug is real?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">A genuine Moroccan rug often features a distinctive backing that can be an essential indicator of its authenticity. When inspecting the back, look for a well-defined weave that reflects the craftsmanship involved in its creation. Handwoven rugs typic......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-can-you-tell-if-a-moroccan-rug-is-real.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="how-much-should-a-rug-in-morocco-cost.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Flangan Drew Christian</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How much should a rug in Morocco cost?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">The intricate craftsmanship involved in creating Moroccan rugs significantly influences their pricing. Artisans often rely on traditional techniques that have been passed down through generations. This dedication to handcrafting unique pieces require......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-much-should-a-rug-in-morocco-cost.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="round-up-of-unique-custom-moroccan-rugs-for-every-style.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Flangan Drew Christian</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Round-Up of Unique Custom Moroccan Rugs for Every Style</h2>
+                            </div>
+                            <p class="card-text py-lg-2">When selecting a custom Moroccan rug, understanding the dimensions of your space is essential. A rug that is too small may cause the room to feel disjointed, while one that is too large can overwhelm the design. For living rooms, consider placing the......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="round-up-of-unique-custom-moroccan-rugs-for-every-style.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="review-of-the-top-custom-moroccan-rug-shops-online.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Flangan Drew Christian</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Review of the Top Custom Moroccan Rug Shops Online</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Shop C stands out for its impressive selection of handcrafted Moroccan rugs, each weaving telling a unique story. The shop prides itself on sourcing authentic materials directly from artisans in Morocco, ensuring that quality and sustainability are a......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="review-of-the-top-custom-moroccan-rug-shops-online.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="what-makes-custom-moroccan-rugs-a-sustainable-home-decor-choice.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Flangan Drew Christian</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What Makes Custom Moroccan Rugs a Sustainable Home Decor Choice</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Custom Moroccan rugs offer an appealing solution for those seeking to minimize waste in home decor. By allowing individuals to specify dimensions, patterns, and materials, these rugs reduce the likelihood of excess production. Standardized sizes ofte......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-makes-custom-moroccan-rugs-a-sustainable-home-decor-choice.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="what-do-i-need-to-make-custom-rugs.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Flangan Drew Christian</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What do I need to make custom rugs?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Choosing the right colors for custom rugs can significantly impact the overall aesthetics of your space. Start by considering the room's existing color scheme, including walls, furniture, and decor. Analyze how different hues can create harmony or co......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-do-i-need-to-make-custom-rugs.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="what-is-it-called-when-you-make-your-own-rug.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Flangan Drew Christian</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What is it called when you make your own rug?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">This traditional craft offers a range of benefits that extend beyond just creating beautiful pieces for your home. Engaging in rug hooking provides an excellent way to tap into your creativity. As you select colors and patterns for styles like Boujaa......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-is-it-called-when-you-make-your-own-rug.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="is-rug-hooking-hard-to-learn.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-21</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Flangan Drew Christian</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Is rug hooking hard to learn?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">This traditional craft offers a range of benefits that extend beyond just creating beautiful pieces for your home, like the iconic Beni Ourain rugs or vibrant&nbsp;Boujaad rugs. Engaging in rug hooking provides an excellent way to tap into your creat......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="is-rug-hooking-hard-to-learn.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div>
+    </div>
+    <div class="">
+        <div>
+            
+        </div>
+    </div>
+    <div class="pb-5 ql-editor article-card-text" id="sitewide-footer" style="display:none">
+        
+    </div>
+</div>
+
+
+
+<!-- Footer-->
+
+<footer class="py-5 bg-dark text-center footer-text-color">
+
+    <div class="container">
+        <div class="row  py-lg-3">
+            <div class="col-md-7">
+                <table style="text-align: left">
+                    <tr>
+                        <td width="15%">
+                            <h2>
+                                <a style="color: inherit;text-decoration: auto;" href="index.html"><img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()"></a>
+                            </h2>
+                        </td>
+                        <td style="text-align: left" class="footer-text-color">
+                            <h2><a style="text-decoration: auto;" href="index.html">yourcustomrugs</a></h2>
+                        </td>
+                    </tr>
+                    <tr style="display: ">
+                        <td width="15%"><i class="fa fa-map-marker-alt footer-text-color"></i></td>
+                        <td style="text-align: left" class="footer-text-color">14 Lotissment mhamid,marrakech,MA,40160</td>
+                    </tr>
+                    <tr style="display: ">
+                        <td width="15%"><i class="fa fa-phone footer-text-color"></i></td>
+                        <td style="text-align: left" class="footer-text-color ">0698112233</td>
+                    </tr>
+                    <tr style="display: ">
+                        <td width="15%"><i class="fa fa-envelope footer-text-color"></i></td>
+                        <td style="text-align: left" class="footer-text-color">flangandrewchristian@gmail.com</td>
+                    </tr>
+                </table>
+
+            </div>
+
+
+            <div class="col-md-4">
+                <table class="float-start float-md-end" style="margin-left: 40px;">
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class=" footer-text-color" style="text-decoration: none" href="terms.html">Terms of Use</a></td>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class="footer-text-color" style="text-decoration: none" href="privacy.html">Privacy Policy</a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class=" footer-text-color" style="text-decoration: none" href="sitemap.html">Sitemap</a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;display: "><a class=" footer-text-color" style="text-decoration: none" href="contact.html">Contact Us</a></td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+    <ul class="mt-3 mb-3" style="display: none !important">
+        <li class="list-inline-item" style="display: inline-block">
+            <a style="text-decoration: none" class="footer-text-color  mr-3" target="_blank" href="https://web.facebook.com/kechart/?_rdc=1&_rdr#"><i class="fa-2x icon-social-facebook"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: none">
+            <a style="text-decoration: none" class="footer-text-color   mr-3" target="_blank" href=""><i class="fa-2x icon-social-twitter"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: inline-block">
+            <a style="text-decoration: none" class=" footer-text-color   mr-3" target="_blank" href="https://www.instagram.com/kechart_brand/#"><i class="fa-2x icon-social-instagram"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: inline-block">
+            <a style="text-decoration: none" class="footer-text-color  mr-3" target="_blank" href="https://www.pinterest.com/kechartdotcom/"><i class="fa-2x icon-social-pinterest"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: inline-block">
+            <a style="text-decoration: none" class="footer-text-color   mr-3" target="_blank" href="https://www.youtube.com/@kechart2001"><i class="fa-2x icon-social-youtube"></i></a>
+        </li>
+    </ul>
+
+    <div class="text-white">
+        <hr/>
+    </div>
+    <div class="container">
+        <p class="m-0 text-center">Copyright &copy; yourcustomrugs. All Rights Reserved.</p>
+    </div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="home/js/scripts.js"></script>
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks the button, open the modal
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+<script>
+    const url = window.location.href;
+    let domain = (new URL(url));
+    let hostname = domain.hostname;
+    let pathname = domain.pathname.split('/');
+    let protocol = domain.protocol;
+    let domain_url =  protocol +'//'+hostname+'/';
+    if(pathname.length > 2){
+        domain_url =  domain_url +pathname.slice(1,pathname.length - 1).join('/')+'/'+document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }else{
+        domain_url =  domain_url +document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }
+    document.querySelectorAll('[rel="canonical"]')[0].setAttribute('href', domain_url);
+</script>
+<script>
+    document.getElementsByTagName('head')[0].innerHTML = document.getElementsByTagName('head')[0].innerHTML.replace('REPLACE_WITH_URL', window.location.href);
+</script></body>
+
+</html>
